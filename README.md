@@ -16,11 +16,15 @@ This script automates installing dependencies, cloning the repository, and launc
 
 📋 Просмотр логов / View logs
 
-docker compose logs -f                # Все сервисы / All services
-docker compose logs -f swarm_node     # Только swarm_node / only swarm_node container
-docker compose logs -f otel-collector # Только otel-collector / only otel-collector container
-docker compose logs -f fastapi        # Только fastapi / only fastapi  container
+```cd /root/Gensyn-Node-CPU_setup/rl-swarm/```
 
+```docker compose logs -f```                 # Все сервисы / All services
+
+```docker compose logs -f swarm_node```      # Только swarm_node / only swarm_node container
+
+```docker compose logs -f otel-collector```  # Только otel-collector / only otel-collector container
+
+```docker compose logs -f fastapi```         # Только fastapi / only fastapi  container
 
 
 
